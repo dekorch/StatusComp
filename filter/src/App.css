@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #eef0f7;
+  background-color: #535354;
+
+}
+
+.container {
+  position: relative;
+  max-width: 1117px;
+  margin: 0 auto;
+  display: block;
+
+}
+
+.containerCards {
+  column-count: 4;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 3px;
+}
+
+.toolbar {
+  margin-top: 10px;
+}
+
+button{
+  padding: 10px;
+  background-color: #eef0f7;
+  margin-left: 10px;
+}
